@@ -10,3 +10,4 @@ const left = document.querySelector(".links");
 
 let rect = left.getBoundingClientRect();
 console.log(rect.top, rect.right, rect.bottom, rect.left);
+

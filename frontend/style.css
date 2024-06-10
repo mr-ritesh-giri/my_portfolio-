@@ -44,27 +44,27 @@ body {
   font-weight: 400;
   color: var(--secondary-color);
 }
-h1 {
+.naam {
   font-size: 90px;
   color: var(--heading-color);
   margin-bottom: 20px;
 }
-h2 {
+.intro {
   color: var(--secondary-color);
   font-weight: 300;
   margin-bottom: 15px;
 }
-h3 {
+.about-me {
   font-size: 80px;
   color: var(--text-color);
   margin-bottom: 40px;
 }
-h4 {
+.about-work {
   font-size: 20px;
   color: var(--text-color);
   margin-bottom: 30px;
 }
-p {
+.status {
   font-size: 20px;
   color: var(--secondary-color);
 }
@@ -74,14 +74,14 @@ p {
 main {
   height: 90vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 nav {
   margin: 0 auto;
   height: 10vh;
-  max-width: 1900px;
+  max-width: 1400px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -128,7 +128,7 @@ nav {
 }
 .right-corner {
   position: fixed;
-  right: 120px;
+  right: 60px;
   bottom: 0;
 }
 
@@ -172,7 +172,129 @@ nav {
   margin-bottom: 15px;
 }
 
-#about {
+.title {
+  height: 10vh;
+  font-size: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills {
   height: 100vh;
   width: 100%;
 }
+.skills-section {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+}
+.skills-section > img {
+  height: 100%;
+  width: 100%;
+}
+.nav-section {
+  width: 10%;
+  height: 90vh;
+}
+.left-skills-img {
+  width: 30%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-skills-img > img {
+  width: 600px;
+  height: 600px;
+}
+.right-skills-section {
+  width: 55%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skill-boxes {
+  width: 200px;
+  margin-right: 15px;
+  position: relative;
+}
+
+.skill-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color);
+  border-left: 1px solid var(--secondary-color);
+  border-top: 1px solid var(--secondary-color);
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.skill-image {
+  margin-right: 10px;
+}
+.first-line {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.second-line {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.third-line {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.forth-line {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.git,
+.gsap {
+  height: 38px;
+  width: 38px;
+}
+#home,
+#about,
+#experience,
+#projects {
+  height: 100vh;
+  width: 100%;
+}
+
+/* 
+html1
+css1
+js1
+react1
+node1
+express1
+mongodb1
+typescript1
+nextjs1
+postgress1
+git
+github
+gsap 
+*/
