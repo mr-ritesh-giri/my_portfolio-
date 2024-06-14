@@ -1,9 +1,9 @@
 let main = document.querySelector("body");
 let cursor = document.querySelector(".cursor");
 
-main.addEventListener("mousemove", function (dets) {
-  cursor.style.left = dets.x - 150 + "px";
-  cursor.style.top = dets.y - 150 + "px";
+document.addEventListener("mousemove", function (dets) {
+  cursor.style.left = dets.pageX - 150 + "px";
+  cursor.style.top = dets.pageY - 150 + "px";
 });
 
 // const left = document.querySelector(".links");

@@ -36,7 +36,6 @@ body {
   width: 300px;
   filter: blur(220px);
   border-radius: 50%;
-  transition: all linear 0.1s;
 }
 .name {
   font-family: logo;
@@ -110,7 +109,7 @@ main {
   font-family: "Inter", sans-serif;
   width: 50vw;
   height: 90vh;
-  margin-top: -150px;
+  margin-top: -50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -286,6 +285,9 @@ main {
   height: 38px;
   width: 38px;
 }
+#projects {
+  margin-bottom: 100px;
+}
 .my-projects {
   display: flex;
   justify-content: center;
@@ -373,4 +375,21 @@ main {
 .right-project {
   float: left;
   margin-top: 40vh;
+}
+#contact {
+  height: 40vh;
+  width: 100%;
+}
+.contact-top {
+  display: flex;
+}
+
+.left-contact {
+  width: 50%;
+}
+.right-contact {
+  width: 50%;
+}
+.contact-me-here {
+  display: flex;
 }
