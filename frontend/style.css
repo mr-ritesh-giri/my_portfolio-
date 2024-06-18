@@ -373,6 +373,8 @@ main {
   float: right;
 }
 .right-project {
+  display: flex;
+  justify-content: center;
   float: left;
   margin-top: 40vh;
 }
