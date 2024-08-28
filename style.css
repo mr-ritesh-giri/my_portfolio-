@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 @font-face {
-  font-family: font;
-  src: url(../Font/times\ new\ roman.ttf);
+  font-family: "font";
+  src: url("../Font/times new roman.ttf");
 }
 @font-face {
-  font-family: logo;
-  src: url(../font/Agutina\ 400.otf);
+  font-family: "logo";
+  src: url("../font/Agutina 400.otf");
 }
+
 :root {
   --primary-color: #101a33;
   --secondary-color: #34afe7;
