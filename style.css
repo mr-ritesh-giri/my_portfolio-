@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "font";
-  src: url("../Font/times new roman.ttf");
+  src: url("/font/times\ new\ roman.ttf");
 }
 @font-face {
   font-family: "logo";
-  src: url("../font/Agutina 400.otf");
+  src: url("/font/Agutina\ 400.otf");
 }
 
 :root {
