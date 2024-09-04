@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>  
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -198,7 +198,16 @@
     <section id="project"></section>
 
     <section id="contact" class="contact-form">
-      <div class="form-container">
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="form-container"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="134fc7f4-1ee3-424b-a33b-6c0af8e6fb74"
+        />
         <div class="form-main-field">
           <label for="name">Name :</label>
           <input
@@ -214,7 +223,7 @@
             type="email"
             name="email"
             id="email-input"
-            placeholder="Type your e-mail"
+            placeholder="Type your e-mail here..."
           />
         </div>
         <div class="form-main-field">
@@ -224,12 +233,12 @@
             id="message-input"
             cols="60"
             rows="10"
-            placeholder="Type your message"
+            placeholder="Type your message here..."
           ></textarea>
         </div>
 
         <button class="live-link submit">Submit here</button>
-      </div>
+      </form>
     </section>
 
     <script

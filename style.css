@@ -253,7 +253,10 @@ main {
   margin-right: 25px;
   position: relative;
 }
-
+.skill-boxes:hover {
+  scale: 1.1;
+  transition:transform 0.1s ease;
+}
 .skill-content {
   position: relative;
   display: flex;
@@ -273,13 +276,6 @@ main {
 .skill-image {
   margin-right: 10px;
 }
-/* .first-line {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 100px;
-} */
 
 .first-line {
   width: 100%;
@@ -332,7 +328,8 @@ main {
   border-radius: 8px;
   background: var(--secondary-color);
   font-family: Inter;
-  font-size: var(--font-size);
+  font-size: 20px;
+  font-weight: 600;
   border: 0;
 }
 .form-container {
